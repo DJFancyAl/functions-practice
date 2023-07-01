@@ -14,5 +14,8 @@ def eat_lunch(list):
         print("My lunchbox is empty!")
         return
     
-    for item in list:
-        print()
+    for item, index in list:
+        print(index)
+
+
+eat_lunch()
